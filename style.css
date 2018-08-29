@@ -1,0 +1,223 @@
+div#rodape{
+position: absolute;
+bottom: 0;
+width : 1360px;
+position: center;
+color: #fff;
+}
+
+div#topo{
+height:22%;
+width:1360px;
+
+float: center;
+color: #fff;
+}
+* {
+margin: 0; 
+padding: 0; 
+
+}
+body{
+ background: #f1f1f1;
+ 
+}
+div#menu { 
+height:69%;
+width: 202px;
+float:left;
+}
+#menu li {
+list-style: none;
+background: #fff;
+width: 200px; 
+border-bottom: 1px solid #666;
+font-family: Comic Sans MS;
+font-size: 17px;
+font-style: italic; 
+}
+#menu li a{ 
+display: block; 
+padding: 8px; 
+border-left: 4px solid #444; 
+text-decoration: none;
+box-shadow: 2px 2px 5px #ccc;
+color: #555;
+ }
+#menu li a:hover {
+border-left: 4px solid #069;
+background: #f8f8f8;
+}
+#menu li ul {
+display: none;
+}
+#menu li:hover ul  {
+display: block;
+}
+#menu li:hover ul li { 
+background: #777; 
+}
+#menu li:hover ul li a {
+color: #ccc;
+}
+#menu li:hover ul li a:hover {
+background: #222; 
+border-left: 4px solid #900;
+} 
+div#centro{
+height:71%;
+width:1150px;
+float: right;
+position: center;
+overflow: auto;
+}
+body{ 
+background: url('fe.jpg');
+float: left;
+background-repeat: no-repeat;
+}
+div#conteudo{
+color: #fff;
+height: 69%;
+width: 600px;
+float: center;
+overflow: auto;
+}
+
+div#violao{
+position: center;
+float: right;
+width: 1017px;
+height:72%;
+border-style:solid;
+border-radius:10px;
+border-color: #fff;
+opacity: 0.70;
+overflow: auto;
+}
+div#guitarra{
+position: center;
+float: right;
+width: 1017px;
+height:72%;
+border-style:solid;
+border-radius:10px;
+border-color: #fff;
+opacity: 0.70;
+overflow: auto;
+}
+div#bateria{
+position: center;
+float: right;
+width: 1017px;
+height:72%;
+border-style:solid;
+border-radius:10px;
+border-color: #fff;
+opacity: 0.70;
+overflow: auto;
+}
+div#teclado{
+position: center;
+float: right;
+width: 1017px;
+height:72%;
+border-style:solid;
+border-radius:10px;
+border-color: #fff;
+opacity: 0.70;
+overflow: auto;
+}
+div#empresa{
+BACKGROUND-COLOR: #333;
+opacity:0.80;
+color: #ffffff;
+font-family: Comic Sans MS;
+font-size: 20px;
+font-style: italic; 
+height: 70%;
+float: right;
+width: 1150px;
+border-style:solid;
+border-radius:10px;
+border-color: #fff;
+}
+div#endereco{
+padding: 10px;
+float: right;
+width: 800px;
+height: 70%;
+opacity: 0.80;
+color: #fff;
+font-size: 17px;
+font-family: Comic Sans MS;
+font-style: italic; 
+}
+div#cadastrarCliente{
+position: center;
+width: 1000px;
+height: 500px;
+ float: left;
+ text-align: center;	
+ font-family: courier new;
+ color: #DEDDC5; 
+text-transform: capitalize;
+
+}
+div#cadastrarProduto{
+position: center;
+width: 1000px;
+height: 500px;
+ float: left;
+ text-align: center;	
+ font-family: courier new;
+ color: #DEDDC5; 
+}
+div#cadastrarFuncionario{
+position: center;
+width: 1000px;
+height: 500px;
+ float: left;
+ text-align: center;	
+ font-family: courier new;
+ color: #DEDDC5; 
+}
+div#login{
+color: #fff;
+font-size: 17px;
+font-family: Comic Sans MS;
+font-style: italic; 
+position: center;
+width: 38%;
+height: 4%;
+top: 50%;
+}
+div#area{
+position: center;
+width: 1000px;
+height: 500px;
+ float: left;
+ text-align: center;	
+ font-family: courier new;
+ color: #DEDDC5; 
+}
+div#compra{
+position: absolute;
+width: 1360px;
+height: 300px;
+top: 30%;
+color: #fff;
+font-size: 17px;
+font-family: Comic Sans MS;
+font-style: italic; 
+}
+ul#cadastrar li a:link{
+text-decoration: none;
+}
+ul#cadastrar li a:visited{
+
+text-decoration:none ;
+}
+ul#cadastrar li a:hover{
+font-family: Comic Sans MS;
+}
