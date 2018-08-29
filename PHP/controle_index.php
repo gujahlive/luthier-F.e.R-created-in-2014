@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once 'classe_bancodedados.php';
+include_once 'Conexao.class.php';
 include_once 'classe_loginFuncionario.php';
 $GLOBALS['bd'] = new Bancodedados();
 $GLOBALS['bd']->conectar();
