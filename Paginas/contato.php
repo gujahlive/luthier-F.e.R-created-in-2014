@@ -1,15 +1,17 @@
-<?php include_once 'controle_contato.php'; ?>
+<?php //include_once '../PHP/controle_contato.php'; ?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<title> Luthier F&R </title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
-		<script type="text/javascript" src="jquery-1.11.1.min.js"> </script>
-		<script type="text/javascript" src="arquivo.js"></script>
+			<link rel="stylesheet" type="text/css" href="../assets/CSS/style.css" />
+		<link rel="stylesheet" type="text/css"  href="../assets/CSS/fotorama.css"/>
+		<script type="text/javascript" src="../assets/JavaScript/jquery-1.11.1.min.js"> </script>
+		<script type="text/javascript" src="../assets/JavaScript/fotorama.js"></script>
+		<script type="text/javascript" src="../assets/JavaScript/arquivo.js"></script>
 	<body>
 	<div id="topo">
-<center><img src="banner.png"></center>
+<center><img src="../assets/Imagens/banner.png"></center>
  
 </div>
 
@@ -17,16 +19,16 @@
 	<div id="menu">
 		
 
-		<li><a href="index.php">Início</a></li>
+		<li><a href="../index.php">Início</a></li>
 		<li><a href="empresa.php">Empresa</a>
 		<li><a>Produtos</a>
 		
 		<ul>
 		
-				<li><a href="violao.php">Violão</a></li>
-				<li><a href="guitarra.php">Guitarra</a></li>
-				<li><a href="bateria.php">Bateria</a></li>
-				<li><a href="teclado.php">Teclado</a></li>
+			    <li><a href="Paginas/produtos/violao.php">Violão</a></li>
+				<li><a href="Paginas/produtos/guitarra.php">Guitarra</a></li>
+				<li><a href="Paginas/produtos/bateria.php">Bateria</a></li>
+				<li><a href="Paginas/produtos/teclado.php">Teclado</a></li>
 		</ul>
 	
 		</li>

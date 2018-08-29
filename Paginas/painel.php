@@ -7,16 +7,15 @@ include_once'controle_painel.php';
 <div id="menu">
 		
 
-		<li><a href="index.php">Início</a></li>
+		<li><a href="../index.php">Início</a></li>
 		<li><a href="empresa.php">Empresa</a>
 		<li><a>Produtos</a>
 		
 		<ul>
-		
-				<li><a href="violao.php">Violão</a></li>
-				<li><a href="guitarra.php">Guitarra</a></li>
-				<li><a href="bateria.php">Bateria</a></li>
-				<li><a href="teclado.php">Teclado</a></li>
+				<li><a href="Paginas/produtos/violao.php">Violão</a></li>
+				<li><a href="Paginas/produtos/guitarra.php">Guitarra</a></li>
+				<li><a href="Paginas/produtos/bateria.php">Bateria</a></li>
+				<li><a href="Paginas/produtos/teclado.php">Teclado</a></li>
 		</ul>
 	
 		</li>

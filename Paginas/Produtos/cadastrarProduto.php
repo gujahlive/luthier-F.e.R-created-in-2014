@@ -4,9 +4,11 @@
 	<head>
 		<title> Luthier F&R </title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
-	<script type="text/javascript" src="jquery-1.11.1.min.js"> </script>
-	<script type="text/javascript" src="arquivo.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../assets/CSS/style.css" />
+		<link rel="stylesheet" type="text/css"  href="../../assets/CSS/fotorama.css"/>
+		<script type="text/javascript" src="../../assets/JavaScript/jquery-1.11.1.min.js"> </script>
+		<script type="text/javascript" src="../../assets/JavaScript/fotorama.js"></script>
+		<script type="text/javascript" src="../../assets/JavaScript/arquivo.js"></script>
 	</head>
 	<body>
             <div id="topo">
@@ -18,7 +20,7 @@
 	<div id="menu">
 			<br><br><br><br><br>
 
-		<li><a href="index.php">Início</a></li>
+		<li><a href="../../index.php">Início</a></li>
 		<li><a href="empresa.php">Empresa</a>
 		<li><a>Produtos</a>
 		

@@ -3,13 +3,15 @@
 	<head>
 		<title> Luthier F&R </title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
-			<script type="text/javascript" src="jquery-1.11.1.min.js"> </script>
-	<script type="text/javascript" src="arquivo.js"></script>
+<link rel="stylesheet" type="text/css" href="../../assets/CSS/style.css" />
+		<link rel="stylesheet" type="text/css"  href="../../assets/CSS/fotorama.css"/>
+		<script type="text/javascript" src="../../assets/JavaScript/jquery-1.11.1.min.js"> </script>
+		<script type="text/javascript" src="../../assets/JavaScript/fotorama.js"></script>
+		<script type="text/javascript" src="../../assets/JavaScript/arquivo.js"></script>
 	</head>
 	<body>
             <div id="topo">
-                <center><img src="banner.png"></center>
+                <center><img src="../../assets/Imagens/banner.png"></center>
  
             </div>
 
@@ -17,8 +19,8 @@
 	<div id="menu">
 			<br><br><br><br><br>
 
-		<li><a href="index.php">Início</a></li>
-		<li><a href="empresa.php">Empresa</a>
+		<li><a href="../../index.php">Início</a></li>
+		<li><a href="../empresa.php">Empresa</a>
 		<li><a>Produtos</a>
 		
 		<ul>
@@ -32,9 +34,9 @@
 		</li>
 		
                
-                <li><a href="login.php">Área Restrita</a></li>
-               <li><a href="contato.php">Contato</a></li>
-		<li><a href="endereco.php">Endereço</a></li>
+                <li><a href="../login.php">Área Restrita</a></li>
+               <li><a href="../contato.php">Contato</a></li>
+		<li><a href="../endereco.php">Endereço</a></li>
 		</div>
 		<div id="cadastrarProduto">
 			<?php
@@ -54,7 +56,7 @@
 				?>
 				Clique No produto para modificar
 				<br><a href="cadastrarProduto.php">Voltar a Cadastrar Produto</a></br>
-				<br><a href="area_restrita.php"><img src="cadastros.png" width="20%" /></a></br>
+				<br><a href="area_restrita.php"><img src="../../assets/Imagens/cadastros.png" width="20%" /></a></br>
 			</div>
 			</center>
 	</body>

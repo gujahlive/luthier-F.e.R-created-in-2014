@@ -32,10 +32,10 @@ include('mobile_device_detect.php');
 		
 		<ul>
 		
-				<li><a href="Paginas/violao.php">Violão</a></li>
-				<li><a href="Paginas/guitarra.php">Guitarra</a></li>
-				<li><a href="Paginas/bateria.php">Bateria</a></li>
-				<li><a href="Paginas/teclado.php">Teclado</a></li>
+				<li><a href="Paginas/produtos/violao.php">Violão</a></li>
+				<li><a href="Paginas/produtos/guitarra.php">Guitarra</a></li>
+				<li><a href="Paginas/produtos/bateria.php">Bateria</a></li>
+				<li><a href="Paginas/produtos/teclado.php">Teclado</a></li>
 		</ul>
 	
 		</li>
